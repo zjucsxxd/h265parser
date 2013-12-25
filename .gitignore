@@ -1,0 +1,12 @@
+*.la
+*.a
+*.lo
+*.o
+*.so
+*.so*
+.*
+*.lib
+*.dll
+build-h265parser-*/
+!.gitignore
+!*.orc
