@@ -14,10 +14,15 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         mainwindow.cpp \
-    h265parser.cpp
+    h265parser.cpp \
+    utils.c \
+    aviobuf.c
 
 HEADERS  += mainwindow.h \
     h265parser.h \
-    gdef.h
+    gdef.h \
+    utils.h \
+    error_base.h \
+    avio.h
 
 FORMS    += mainwindow.ui
